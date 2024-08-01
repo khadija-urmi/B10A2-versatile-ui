@@ -1,0 +1,53 @@
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+/* shared style */
+.container {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+/* navbar */
+.navbar-wrap {
+    background: linear-gradient(180deg, rgb(17, 17, 17)100%,
+            rgba(119, 119, 119, 0) 100%);
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: auto 6rem;
+}
+
+.nav-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav-content h2 {
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav-content p {
+    font-size: 18px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.nav-options p:hover {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    background: rgb(230, 83, 60);
+    font-weight: 800;
+}
+
+/* banner-section */
