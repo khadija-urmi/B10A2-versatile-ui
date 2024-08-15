@@ -27,14 +27,14 @@ body {
     color: white;
 }
 
-h1 {
+.primary-header {
     font-size: 3rem;
     font-weight: 900;
     color: rgb(255, 255, 255);
 
 }
 
-p {
+.primary-text {
     color: rgba(255, 255, 255, 0.3);
     font-size: 0.8rem;
 }
@@ -254,9 +254,6 @@ p {
     margin-bottom: 3.6rem;
 }
 
-.habit-section p {
-    color: rgba(255, 255, 255, 0.5);
-}
 
 .exercise-info {
     display: flex;
@@ -283,9 +280,38 @@ p {
     color: white;
 }
 
-.exercise-details p {
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.5);
-}
 
 /* run-mile-section */
+.run-mile-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10rem;
+    margin: 3rem;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+
+.run-mile-info {
+    margin: auto 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    text-align: left;
+
+}
+
+.run-mile-info h1 {
+    margin: 0;
+}
+
+.run-mile-img {
+    margin: 2rem;
+    text-align: center;
+
+}
+
+.run-mile-img img {
+    width: 22.8rem;
+    height: 19.5rem;
+    border-radius: 18px;
+}
