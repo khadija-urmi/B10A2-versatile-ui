@@ -476,3 +476,77 @@ input::placeholder {
     font-size: 16px;
     color: rgba(255, 255, 255, 0.8);
 }
+
+/* priceplan section */
+.pricing-section {
+    text-align: center;
+    padding: 2rem;
+    color: white;
+}
+
+.pricing-section h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.pricing-card {
+    background-color: #1e1e1e;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 2rem;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.pricing-card:hover {
+    transform: scale(1.05);
+}
+
+.pricing-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.pricing-card .price {
+    font-size: 2.5rem;
+    color: rgb(230, 83, 60);
+    margin: 1rem 0;
+}
+
+.pricing-card p {
+    margin: 0.5rem 0;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 2rem;
+}
+
+.pricing-card ul li {
+    margin: 0.5rem 0;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.pricing-card button {
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: rgb(230, 83, 60);
+}
