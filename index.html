@@ -97,6 +97,67 @@
             <img src="./images/run.jpg">
         </div>
     </section>
+    <section class="bmi-section">
+        <h1 class="primary-header">BMI Calculator</h1>
+        <p class="primary-text">A simple tool to calculate your Body Mass Index (BMI) and assess your ideal weight
+            range.</p>
+        <div class="bmi-details">
+            <div class="chart-container">
+                <h2>BMI Calculator Chart</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>BMI</th>
+                            <th>Weight Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Under 18.5</td>
+                            <td>Underweight</td>
+                        </tr>
+                        <tr>
+                            <td>18.5 - 24.9</td>
+                            <td>Normal weight</td>
+                        </tr>
+                        <tr>
+                            <td>25 - 29.9</td>
+                            <td>Overweight</td>
+                        </tr>
+                        <tr>
+                            <td>30 and above</td>
+                            <td>Obesity</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="input-container">
+                <h2>Calculate your BMI</h2>
+                <p>
+                    We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a
+                    gym.
+                </p>
+                <div class="input-box">
+                    <input type="text" placeholder="Height/cm" class="input1">
+                    <input type="text" placeholder="Weight/kg" class="input2">
+                    <input type="number" placeholder="Age" class="input3">
+                    <select name="gender" id="gender-select" class="select-box">
+                        <option value="" disabled selected>Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <select name="activity" id="activity-select" class="select-box">
+                        <option value="" disabled selected>Select an activity factor</option>
+                        <option value="run">Running</option>
+                        <option value="walk">Walking</option>
+                        <option value="swim">Swimming</option>
+                    </select>
+                </div>
+                <button class="primary-btn">Calculate </button>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
