@@ -1,2 +1,104 @@
 /* navbar */
-@media screen and (max-width:600px) {}
+@media screen and (max-width:600px) {
+
+    /* shared style */
+    .container {
+        width: 100%;
+        margin: 1rem auto;
+    }
+
+    .primary-header {
+        font-size: 2rem;
+
+    }
+
+    .primary-text {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .primary-btn {
+        width: 70%;
+        height: 54px;
+        padding: 0.7rem 1.2rem;
+        border: none;
+        font-size: 14px;
+    }
+
+    .secondary-btn {
+        background: black;
+        box-sizing: border-box;
+        border: 1px solid white;
+    }
+
+    .nav-options {
+        display: none;
+    }
+
+    .nav-content {
+        margin: auto 3rem;
+    }
+
+    .menu-bar {
+        display: block;
+        font-size: 26px;
+    }
+
+    .banner-content, .run-mile-section {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin: auto 20px;
+    }
+
+    .banner-info h2 {
+        font-size: 3.5rem;
+        line-height: 1.3;
+    }
+
+    .banner-info .styled-text {
+        font-size: 2.8rem;
+    }
+
+    .banner-img .img-box1 {
+
+        left: 20rem;
+        top: 37rem;
+    }
+
+    .banner-img .img-box2 {
+
+        left: 0rem;
+        top: 60rem;
+    }
+
+    .exercise-info {
+
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .exercise-details {
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+
+    .run-mile-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin: auto 4rem;
+        text-align: center;
+
+    }
+
+    .run-mile-img img {
+        width: 287px;
+        height: 170px;
+        border-radius: 18px;
+
+        object-fit: cover;
+        object-position: center;
+    }
+
+}
