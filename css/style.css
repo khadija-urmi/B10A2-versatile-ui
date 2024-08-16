@@ -330,7 +330,6 @@ body {
 }
 
 .bmi-details {
-
     color: white;
     padding: 3rem 2rem;
     display: grid;
@@ -485,12 +484,6 @@ input::placeholder {
     color: white;
 }
 
-.pricing-section h2 {
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    font-weight: bold;
-}
-
 .pricing-cards {
     display: flex;
     justify-content: center;
@@ -556,7 +549,8 @@ input::placeholder {
 
 .footer-section {
     background-color: rgba(255, 255, 255, 0.1);
-    padding: 2rem 0;
+    padding: 1rem 0;
+    min-height: auto;
 
 }
 
@@ -623,8 +617,8 @@ input::placeholder {
 
 .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 2rem 0;
-    margin: 1.5rem 0;
+    padding: 1rem 0;
+    margin: 1rem 0;
     text-align: center;
     font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.6);
